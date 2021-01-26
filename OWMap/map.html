@@ -319,6 +319,10 @@ config = {"factor":65536.0,"globalMinZoom":12,"globalMaxZoom":20,"tileSize":512,
               form.appendChild(radioContainer);
             });
 
+          linkElement = document.createElement("ul");
+          linkElement.innerHTML = "<li><a href='../NMap/map.html'>Nether Map</a></li><li><a href='../OWMap/map.html'>Overworld Map</a></li>";
+          form.appendChild(linkElement);
+
           const hr = document.createElement("hr");
           form.appendChild(hr);
 
