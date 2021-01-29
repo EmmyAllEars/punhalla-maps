@@ -6,6 +6,28 @@ var playersData = {
  "players": [
     {
       "uuid": " ",
+      "name": "Nether Fortress Base #2",
+      "dimensionId": 1,
+      "position": [
+        -128,
+        53,
+        92
+      ],
+      "color": "Green",
+      "visible": true
+    },{
+      "uuid": " ",
+      "name": "Strider Baby Exit",
+      "dimensionId": 1,
+      "position": [
+        -117,
+        32,
+        12
+      ],
+      "color": "Green",
+      "visible": true
+    },{
+      "uuid": " ",
       "name": "Nether Fortress Base",
       "dimensionId": 1,
       "position": [
