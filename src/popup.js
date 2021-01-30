@@ -8,7 +8,7 @@ var closer = document.getElementById('popup-closer');
 /**
  * Create an overlay to anchor the popup to the map.
  */
-var overlay = new Overlay({
+var overlay = new ol.Overlay({
   element: container,
   autoPan: true,
   autoPanAnimation: {
@@ -29,9 +29,15 @@ closer.onclick = function () {
  * Add a click handler to the map to render the popup.
  */
 map.on('singleclick', function (evt) {
-  var coordinate = evt.coordinate;
-  var hdms = toStringHDMS(toLonLat(coordinate));
+  var x = Math.floor(
+    (event.coordinate[0] / zoomRatioForMaximumZoom) *
+      minecraftTilesAtMostZoomedInLevel
+  );
+  var z = Math.floor(
+    (-event.coordinate[1] / zoomRatioForMaximumZoom) *
+      minecraftTilesAtMostZoomedInLevel
+  );
 
-  content.innerHTML = '<p>You clicked here:</p><code>' + hdms + '</code>';
+  content.innerHTML = "X: " + x + " Z: " + z;
   overlay.setPosition(coordinate);
 });
