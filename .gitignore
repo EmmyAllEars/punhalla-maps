@@ -1,6 +1,4 @@
-
 *.sqlite
-slice12/update/*
-nether15/update/*
+*/update/*
 map.html
 update/*
