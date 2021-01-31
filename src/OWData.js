@@ -54,6 +54,18 @@ var playersData = {
     },
     {
       "uuid": " ",
+      "name": "Penis Point",
+      "dimensionId": 0,
+      "position": [
+        48,
+        0,
+        -239
+      ],
+      "color": "DarkRed",
+      "visible": true
+    },
+    {
+      "uuid": " ",
       "name": "Desert Village",
       "dimensionId": 0,
       "position": [
@@ -114,12 +126,36 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Emmy Village",
+      "name": "Stronghold Village",
       "dimensionId": 0,
       "position": [
-        -149,
+        -804,
+        0,
+        -692
+      ],
+      "color": "DarkRed",
+      "visible": true
+    },
+    {
+      "uuid": " ",
+      "name": "Old Village Nether Portal",
+      "dimensionId": 0,
+      "position": [
+        -216,
         69,
-        -349
+        -343
+      ],
+      "color": "DarkRed",
+      "visible": true
+    },
+    {
+      "uuid": " ",
+      "name": "Abandoned Church",
+      "dimensionId": 0,
+      "position": [
+        -133,
+        69,
+        -339
       ],
       "color": "DarkRed",
       "visible": true
