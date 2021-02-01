@@ -17,6 +17,30 @@ var playersData = {
       "color": "DarkRed",
       "visible": true
     },
+     {
+      "uuid": " ",
+      "name": "Afe's Village",
+      "dimensionId": 0,
+      "position": [
+        -3434,
+        0,
+        3519
+      ],
+      "color": "DarkRed",
+      "visible": true
+    },
+    {
+      "uuid": " ",
+      "name": "Abandoned Church",
+      "dimensionId": 0,
+      "position": [
+        -133,
+        69,
+        -339
+      ],
+      "color": "DarkRed",
+      "visible": true
+    }, 
 //Nether Portals -- Purple
   {
       "uuid": " ",
@@ -176,18 +200,6 @@ var playersData = {
       "color": "DarkGreen",
       "visible": true
     },
-    {
-      "uuid": " ",
-      "name": "Abandoned Church",
-      "dimensionId": 0,
-      "position": [
-        -133,
-        69,
-        -339
-      ],
-      "color": "DarkGreen",
-      "visible": true
-    }, 
     {
       "uuid": " ",
       "name": "First Shipwreck",
