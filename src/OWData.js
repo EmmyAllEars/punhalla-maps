@@ -5,9 +5,10 @@
 var playersData = {
   "players": [
 //Bases - DarkRed
+// Home icon: \n\uf015
   {
       "uuid": " ",
-      "name": "Main Base",
+      "name": "Main Base\n\uf015",
       "dimensionId": 0,
       "position": [
         101,
@@ -19,7 +20,7 @@ var playersData = {
     },
      {
       "uuid": " ",
-      "name": "Afe's Village",
+      "name": "Afe's Village\n\uf015",
       "dimensionId": 0,
       "position": [
         -3434,
@@ -31,7 +32,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Abandoned Church",
+      "name": "Abandoned Church\n\uf015",
       "dimensionId": 0,
       "position": [
         -133,
@@ -41,10 +42,23 @@ var playersData = {
       "color": "DarkRed",
       "visible": true
     }, 
+    {
+      "uuid": " ",
+      "name": "Pumpkin Head House\n\uf015",
+      "dimensionId": 0,
+      "position": [
+        -820,
+        0,
+        -668
+      ],
+      "color": "DarkRed",
+      "visible": true
+    }, 
 //Nether Portals -- Purple
+// archway icon \n\uf557
   {
       "uuid": " ",
-      "name": "Stronghold Portal",
+      "name": "Stronghold Portal\n\uf557",
       "dimensionId": 0,
       "position": [
         -812,
@@ -56,7 +70,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Desert Portal",
+      "name": "Desert Portal\n\uf557",
       "dimensionId": 0,
       "position": [
         -244,
@@ -68,7 +82,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Portal 2 Cave",
+      "name": "Portal 2 Cave\n\uf557",
       "dimensionId": 0,
       "position": [
         252,
@@ -80,7 +94,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Old Village Nether Portal",
+      "name": "Old Village Nether Portal\n\uf557",
       "dimensionId": 0,
       "position": [
         -216,
@@ -91,9 +105,10 @@ var playersData = {
       "visible": true
     },
 //Underground Locations -- Gray
+// \n\uf6d9
     {
       "uuid": " ",
-      "name": "Fossils",
+      "name": "Fossils\n\uf6d9",
       "dimensionId": 0,
       "position": [
         -72,
@@ -105,7 +120,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Mineshaft",
+      "name": "Mineshaft\n\uf6d9",
       "dimensionId": 0,
       "position": [
         232,
@@ -116,9 +131,10 @@ var playersData = {
       "visible": true
     },
 //Landmarks -- DarkGreen
+// \n\uf5a6
   {
       "uuid": " ",
-      "name": "Broken Portal",
+      "name": "Broken Portal\n\uf5a6",
       "dimensionId": 0,
       "position": [
         -445,
@@ -130,7 +146,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Cleared Temple",
+      "name": "Cleared Temple\n\uf5a6",
       "dimensionId": 0,
       "position": [
         -659,
@@ -142,7 +158,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Cleared Temple",
+      "name": "Cleared Temple\n\uf5a6",
       "dimensionId": 0,
       "position": [
         -482,
@@ -154,7 +170,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Penis Point",
+      "name": "Penis Point\n\uf5a6",
       "dimensionId": 0,
       "position": [
         48,
@@ -166,7 +182,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Desert Village",
+      "name": "First Desert Village\n\uf5a6",
       "dimensionId": 0,
       "position": [
         -684,
@@ -178,7 +194,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Raider Tower",
+      "name": "Raider Tower\n\uf5a6",
       "dimensionId": 0,
       "position": [
         551,
@@ -190,7 +206,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Stronghold Village",
+      "name": "Stronghold Village\n\uf5a6",
       "dimensionId": 0,
       "position": [
         -804,
@@ -202,7 +218,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "First Shipwreck",
+      "name": "First Shipwreck\n\uf5a6",
       "dimensionId": 0,
       "position": [
         -597,

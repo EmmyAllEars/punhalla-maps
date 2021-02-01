@@ -244,7 +244,7 @@ if (typeof(playersData) !== "undefined") {
 
       var style = new ol.style.Style({
           text: new ol.style.Text({
-              text: player.name + "\n\uf041", // map-marker
+              text: player.name , //+ "\n\uf041" // map-marker
               font: "900 18px 'Font Awesome 5 Free'",
               textBaseline: "bottom",
               fill: new ol.style.Fill({color: player.color}),

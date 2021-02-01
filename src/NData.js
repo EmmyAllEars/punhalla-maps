@@ -5,9 +5,10 @@
 var playersData = {
  "players": [
 //Bases - Green
+//Home icon \n\uf015
     {
       "uuid": " ",
-      "name": "Nether Fortress Base #2",
+      "name": "Nether Fortress Base #2\n\uf015",
       "dimensionId": 1,
       "position": [
         -128,
@@ -19,7 +20,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Nether Fortress Base",
+      "name": "Nether Fortress Base\n\uf015",
       "dimensionId": 1,
       "position": [
         -212,
@@ -30,9 +31,10 @@ var playersData = {
       "visible": true
     },
 //Nether Portals -- Purple
+// archway icon \n\uf557
 {
       "uuid": " ",
-      "name": "Base Portal",
+      "name": "Base Portal\n\uf557",
       "dimensionId": 1,
       "position": [
         7,
@@ -44,7 +46,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Portal 2",
+      "name": "Portal 2\n\uf557",
       "dimensionId": 1,
       "position": [
         31,
@@ -56,7 +58,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Stronghold Portal",
+      "name": "Stronghold Portal\n\uf557",
       "dimensionId": 1,
       "position": [
         -102,
@@ -68,7 +70,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Old Village Nether Portal",
+      "name": "Old Village Nether Portal\n\uf557",
       "dimensionId": 1,
       "position": [
         -27,
@@ -80,7 +82,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Desert Portal",
+      "name": "Desert Portal\n\uf557",
       "dimensionId": 0,
       "position": [
         -20,
@@ -91,9 +93,10 @@ var playersData = {
       "visible": true
     },
 //Tunnel Locations -- Gray
+// \n\uf6d9
 {
       "uuid": " ",
-      "name": "Crimson Forest Tunnel",
+      "name": "Crimson Forest Tunnel\n\uf6d9",
       "dimensionId": 1,
       "position": [
         -106,
@@ -105,7 +108,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Strider Baby Exit",
+      "name": "Strider Baby Exit\n\uf6d9",
       "dimensionId": 1,
       "position": [
         -117,
@@ -117,7 +120,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Lava Bridge 1",
+      "name": "Lava Bridge 1\n\uf6d9",
       "dimensionId": 1,
       "position": [
         -62,
@@ -129,7 +132,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Long Tunnel Crossroad",
+      "name": "Long Tunnel Crossroad\n\uf6d9",
       "dimensionId": 1,
       "position": [
         -44,
@@ -141,7 +144,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Magma Ports Room",
+      "name": "Magma Ports Room\n\uf6d9",
       "dimensionId": 1,
       "position": [
         -117,
@@ -153,7 +156,7 @@ var playersData = {
     },
      {
       "uuid": " ",
-      "name": "Soul Valley Exit",
+      "name": "Soul Valley Exit\n\uf6d9",
       "dimensionId": 1,
       "position": [
         -36,
@@ -165,7 +168,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Tunnel Start",
+      "name": "Tunnel Start\n\uf6d9",
       "dimensionId": 1,
       "position": [
         9,
@@ -176,9 +179,10 @@ var playersData = {
       "visible": true
     },
 //Landmarks -- DarkGreen
+// \n\uf5a6
     {
       "uuid": " ",
-      "name": "Basalt Delta Overlook",
+      "name": "Basalt Delta Overlook\n\uf5a6",
       "dimensionId": 1,
       "position": [
         45,
@@ -190,7 +194,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Basalt Quarry",
+      "name": "Basalt Quarry\n\uf5a6",
       "dimensionId": 1,
       "position": [
         48,
@@ -202,7 +206,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Diorite Outlet",
+      "name": "Diorite Outlet\n\uf5a6",
       "dimensionId": 1,
       "position": [
         -78,
@@ -214,7 +218,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Bastion Stable",
+      "name": "Bastion Stable\n\uf5a6",
       "dimensionId": 1,
       "position": [
         -530,
@@ -226,7 +230,7 @@ var playersData = {
     },
     {
       "uuid": " ",
-      "name": "Bastard Bastion",
+      "name": "Bastard Bastion\n\uf5a6",
       "dimensionId": 1,
       "position": [
         -555,
