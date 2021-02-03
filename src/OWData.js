@@ -1,7 +1,3 @@
-// NOTE: Please only modify player attributes below such as name, color, and visible
-// To hide a player's marker, change their 'visible' variable from 'true' to 'false'
-// This file is automatically updated, and if other parts are changed, it will fail to update
-// Changes will only be read from the /map/playersData.js file - /update/playersData.js will be overwritten, so don't make changes there
 var playersData = {
   "players": [
 //Bases - DarkRed
@@ -224,6 +220,30 @@ var playersData = {
         -597,
         63,
         175
+      ],
+      "color": "DarkGreen",
+      "visible": true
+    },
+    {
+      "uuid": " ",
+      "name": "Island Village\n\uf5a6",
+      "dimensionId": 0,
+      "position": [
+        -1980,
+        62,
+        2372
+      ],
+      "color": "DarkGreen",
+      "visible": true
+    },
+    {
+      "uuid": " ",
+      "name": "Bamboo Forest\n\uf5a6",
+      "dimensionId": 0,
+      "position": [
+        -1556,
+        63,
+        3563
       ],
       "color": "DarkGreen",
       "visible": true
