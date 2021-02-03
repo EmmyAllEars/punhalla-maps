@@ -1,7 +1,3 @@
-// NOTE: Please only modify player attributes below such as name, color, and visible
-// To hide a player's marker, change their 'visible' variable from 'true' to 'false'
-// This file is automatically updated, and if other parts are changed, it will fail to update
-// Changes will only be read from the /map/playersData.js file - /update/playersData.js will be overwritten, so don't make changes there
 var playersData = {
  "players": [
 //Bases - Green
