@@ -4,3 +4,6 @@ map.html
 update/*
 *.sqlite-shm
 *.sqlite-wal
+map/dim0_stronghold/*
+map/dim1_stronghold/*
+slice12/map/dim0/*
