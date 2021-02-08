@@ -258,8 +258,12 @@ const PapyrusControls = (function(Control) {
     form.appendChild(hr);
 
     locationElement = document.createElement("div");
-    locationElement.innerText = "X: 0, Z: 0";
+    locationElement.innerText = "Click map for coords.";
     form.appendChild(locationElement);
+
+    /*pinElement = document.createElement("div");
+    pinElement.innerHTML = "<hr><button onclick='showForm()' id='coordsbutton' type='button'>Enter coords</button><div id='pinform' style='display:none;margin-top:5px;'><form id='pindrop'><label for='Xpos'>X</label><input type='text' id='Xpos' name='Xpos' style='width: 75%; margin-left:5px;'><br><label for='Zpos'>Z</label><input type='text' id='Zpos' name='Zpos' style='width: 75%; margin-left:5px;'><input type='button' onclick='dropPin()' style='margin:2px;' value='Go' onsubmit='return false'></form><button onclick='removePin()' style='margin:2px;display:none;' id='clearPin' type='button'>Remove Pin</button></div>";
+    form.appendChild(pinElement);*/
 
     Control.call(this, {
       element: element,
@@ -285,7 +289,7 @@ map = new ol.Map({
   ]
 });
 
-map.on("pointermove", function(event) {
+map.on("click", function(event) {
   var x = Math.floor(
     (event.coordinate[0] / zoomRatioForMaximumZoom) *
       minecraftTilesAtMostZoomedInLevel
@@ -297,6 +301,24 @@ map.on("pointermove", function(event) {
 
   locationElement.innerText = "X: " + x + " Z: " + z;
 });
+
+/*function showForm() {
+  var x = document.getElementById("pinform");
+  x.style.display = "block";
+  var y = document.getElementById("coordsbutton");
+  y.style.display = "none";
+};
+
+function removePin() {
+  var x = document.getElementById("pinform");
+  x.style.display = "none";
+  var y = document.getElementById("coordsbutton");
+  y.style.display = "block";
+  var z = document.getElementById("clearPin");
+  z.style.display = "none";
+};*/
+
+
 
 if (typeof(playersData) !== "undefined") {
   var playerFeatures = [];
@@ -320,10 +342,12 @@ if (typeof(playersData) !== "undefined") {
       });
 
       var playerFeature = new ol.Feature({
+          name: player.name,
           geometry: new ol.geom.Point([
               (player.position[0] * zoomRatioForMaximumZoom) / minecraftTilesAtMostZoomedInLevel,
               (-player.position[2] * zoomRatioForMaximumZoom) / minecraftTilesAtMostZoomedInLevel
-          ])
+          ]),
+          popupText: player.position[0] + ", " + player.position[2]
       });
 
       playerFeature.setStyle(style);
@@ -342,3 +366,36 @@ if (typeof(playersData) !== "undefined") {
   vectorLayer.setMap(map);
   //map.addLayer(vectorLayer);
 }
+
+/*function dropPin() {
+  var Xvalue = document.getElementById("Xpos").value;
+  var Zvalue = document.getElementById("Zpos").value;
+  var x = document.getElementById("clearPin");
+  x.style.display = "block";
+  var style = new ol.style.Style({
+      text: new ol.style.Text({
+          text: "\uf276",
+          font: "900 18px 'Font Awesome 5 Free'",
+          textBaseline: "bottom",
+          fill: new ol.style.Fill({color: "red"}),
+          stroke: new ol.style.Stroke({color: "white", width: 1})
+      })
+  });
+  var pinFeature = new ol.Feature({
+        geometry: new ol.geom.Point([
+          (Xvalue * zoomRatioForMaximumZoom) / minecraftTilesAtMostZoomedInLevel,
+          (Zvalue * zoomRatioForMaximumZoom) / minecraftTilesAtMostZoomedInLevel
+        ])
+    });
+  pinFeature.setStyle(style);
+  playerFeatures.push(pinFeature);
+  map.render();
+    
+  var pintemp = new Overlay({
+    position: pos,
+    element: document.getElementById('vienna'),
+  });
+  map.addOverlay(pin); 
+  var point = feature.getGeometry();
+  view.centerOn(point.getCoordinates(), size, [570, 500]);
+};*/

@@ -1,5 +1,8 @@
 var playersData = {
  "players": [
+ // lighthouse/torch markers - Yellow
+ // Fire icon - \n\uf7e4
+ 
 //Bases - Green
 //Home icon \n\uf015
     {

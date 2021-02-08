@@ -247,7 +247,7 @@ const PapyrusControls = (function(Control) {
     form.appendChild(hr);
 
     locationElement = document.createElement("div");
-    locationElement.innerText = "X: 0, Z: 0";
+    locationElement.innerText = "Click map for coords.";
     form.appendChild(locationElement);
 
     Control.call(this, {
@@ -274,7 +274,7 @@ map = new ol.Map({
   ]
 });
 
-map.on("pointermove", function(event) {
+map.on("click", function(event) {
   var x = Math.floor(
     (event.coordinate[0] / zoomRatioForMaximumZoom) *
       minecraftTilesAtMostZoomedInLevel
@@ -312,7 +312,8 @@ if (typeof(playersData) !== "undefined") {
           geometry: new ol.geom.Point([
               (player.position[0] * zoomRatioForMaximumZoom) / minecraftTilesAtMostZoomedInLevel,
               (-player.position[2] * zoomRatioForMaximumZoom) / minecraftTilesAtMostZoomedInLevel
-          ])
+          ]),
+          popupText: player.position[0] + ", " + player.position[2]
       });
 
       playerFeature.setStyle(style);

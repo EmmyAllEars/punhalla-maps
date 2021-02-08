@@ -1,43 +1,40 @@
-/**
- * Elements that make up the popup.
- */
-var container = document.getElementById('popup');
-var content = document.getElementById('popup-content');
-var closer = document.getElementById('popup-closer');
+var element = document.getElementById('popup');
 
-/**
- * Create an overlay to anchor the popup to the map.
- */
-var overlay = new ol.Overlay({
-  element: container,
-  autoPan: true,
-  autoPanAnimation: {
-    duration: 250,
-  },
+var popup = new ol.Overlay({
+  element: element,
+  positioning: 'bottom-center',
+  stopEvent: false,
+  offset: [0, -50],
+});
+map.addOverlay(popup);
+
+// display popup on click
+map.on('click', function (evt) {
+  $(element).popover('dispose');
+  var feature = map.forEachFeatureAtPixel(evt.pixel, function (feature) {
+    return feature;
+  });
+  if (feature) {
+    var coordinates = feature.getGeometry().getCoordinates();
+    popup.setPosition(coordinates);
+    $(element).popover({
+      placement: 'top',
+      html: true,
+      content: feature.get('popupText'),
+    });
+    $(element).popover('show');
+  } else {
+    $(element).popover('dispose');
+  }
 });
 
-/**
- * Add a click handler to hide the popup.
- * @return {boolean} Don't follow the href.
- */
-closer.onclick = function () {
-  overlay.setPosition(undefined);
-  closer.blur();
-  return false;
-};
-/**
- * Add a click handler to the map to render the popup.
- */
-map.on('singleclick', function (evt) {
-  var x = Math.floor(
-    (event.coordinate[0] / zoomRatioForMaximumZoom) *
-      minecraftTilesAtMostZoomedInLevel
-  );
-  var z = Math.floor(
-    (-event.coordinate[1] / zoomRatioForMaximumZoom) *
-      minecraftTilesAtMostZoomedInLevel
-  );
-
-  content.innerHTML = "X: " + x + " Z: " + z;
-  overlay.setPosition(coordinate);
+// change mouse cursor when over marker
+map.on('pointermove', function (e) {
+  if (e.dragging) {
+    $(element).popover('dispose');
+    return;
+  }
+/*  var pixel = map.getEventPixel(e.originalEvent);
+  var hit = map.hasFeatureAtPixel(pixel);
+  map.getTarget().style.cursor = hit ? 'pointer' : '';*/
 });

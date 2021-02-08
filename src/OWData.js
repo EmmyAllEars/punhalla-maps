@@ -1,7 +1,57 @@
 var playersData = {
   "players": [
+   // lighthouse/torch markers - Orange
+ // Fire icon - \n\uf7e4
+ {
+      "uuid": " ",
+      "name": "\uf7e4",
+      "dimensionId": 0,
+      "position": [
+        -434,
+        0,
+        220
+      ],
+      "color": "Orange",
+      "visible": true
+    },
+ {
+      "uuid": " ",
+      "name": "\uf7e4",
+      "dimensionId": 0,
+      "position": [
+        48,
+        0,
+        -239
+      ],
+      "color": "Orange",
+      "visible": true
+    },
 //Bases - DarkRed
 // Home icon: \n\uf015
+{
+      "uuid": " ",
+      "name": "Base of Afe\n\uf015",
+      "dimensionId": 0,
+      "position": [
+        -3359,
+        0,
+        3905
+      ],
+      "color": "DarkRed",
+      "visible": true
+    },
+  {
+      "uuid": " ",
+      "name": "Birch Hut\n\uf015",
+      "dimensionId": 0,
+      "position": [
+        671,
+        0,
+        -930
+      ],
+      "color": "DarkRed",
+      "visible": true
+    },
   {
       "uuid": " ",
       "name": "Main Base\n\uf015",
@@ -10,6 +60,18 @@ var playersData = {
         101,
         74,
         -70
+      ],
+      "color": "DarkRed",
+      "visible": true
+    },
+    {
+      "uuid": " ",
+      "name": "Emmy Witch Hut\n\uf015",
+      "dimensionId": 0,
+      "position": [
+        -812,
+        0,
+        -1820
       ],
       "color": "DarkRed",
       "visible": true
@@ -184,18 +246,6 @@ var playersData = {
         -482,
         65,
         2089
-      ],
-      "color": "DarkGreen",
-      "visible": true
-    },
-    {
-      "uuid": " ",
-      "name": "Penis Point\n\uf5a6",
-      "dimensionId": 0,
-      "position": [
-        48,
-        0,
-        -239
       ],
       "color": "DarkGreen",
       "visible": true
