@@ -28,7 +28,19 @@ var playersData = {
     },
 //Nether Portals -- Purple
 // archway icon \n\uf557
-{
+    {
+      "uuid": " ",
+      "name": "Mountain Portal\n\uf557",
+      "dimensionId": 1,
+      "position": [
+        -188,
+        14,
+        425
+      ],
+      "color": "Purple",
+      "visible": true
+    },
+    {
       "uuid": " ",
       "name": "Base Portal\n\uf557",
       "dimensionId": 1,

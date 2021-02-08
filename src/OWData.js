@@ -50,8 +50,32 @@ var playersData = {
       "color": "DarkRed",
       "visible": true
     }, 
+    {
+      "uuid": " ",
+      "name": "Mountain Base\n\uf015",
+      "dimensionId": 0,
+      "position": [
+        -1497,
+        67,
+        3394        
+      ],
+      "color": "DarkRed",
+      "visible": true
+    }, 
 //Nether Portals -- Purple
 // archway icon \n\uf557
+    {
+      "uuid": " ",
+      "name": "Mountain Portal\n\uf557",
+      "dimensionId": 0,
+      "position": [
+        -1493,
+        0,
+        3410
+      ],
+      "color": "Purple",
+      "visible": true
+    },
   {
       "uuid": " ",
       "name": "Stronghold Portal\n\uf557",
@@ -241,9 +265,9 @@ var playersData = {
       "name": "Bamboo Forest\n\uf5a6",
       "dimensionId": 0,
       "position": [
-        -1556,
+        -373,
         63,
-        3563
+        3779
       ],
       "color": "DarkGreen",
       "visible": true
