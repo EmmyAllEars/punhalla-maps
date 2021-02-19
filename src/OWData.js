@@ -30,6 +30,17 @@ var playersData = {
 // Home icon: \n\uf015
 {
       "uuid": " ",
+      "name": "Shipwreck\n\uf015",
+      "dimensionId": 0,
+      "position": [
+        -759,
+        0,
+        377
+      ],
+      "color": "DarkRed",
+      "visible": true
+    },{
+      "uuid": " ",
       "name": "Base of Afe\n\uf015",
       "dimensionId": 0,
       "position": [
