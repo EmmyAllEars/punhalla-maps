@@ -19,19 +19,30 @@ var playersData = {
 
 //-------------------------Bases - DarkRed-------------------------
 // Home icon: \n\uf015
-/* 
     {
       "uuid": " ",
-      "name": "Mountain Base\n\uf015",
+      "name": "Afe's Dungeonhome\n\uf015",
       "dimensionId": 0,
       "position": [
-        -1497,
+        37,
         67,
-        3394        
+        669        
       ],
       "color": "DarkRed",
       "visible": true
-    }, */
+    }, 
+    {
+      "uuid": " ",
+      "name": "Emmy's Ice Palace\n\uf015",
+      "dimensionId": 0,
+      "position": [
+        -267,
+        67,
+        644        
+      ],
+      "color": "DarkRed",
+      "visible": true
+    }, 
 
 //-------------------------Nether Portals -- Purple-------------------------
 // archway icon \n\uf557
