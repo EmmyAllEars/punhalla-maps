@@ -296,7 +296,8 @@ const PapyrusControls = (function(Control) {
     form.appendChild(hr);
 
     linkElement = document.createElement("div");
-    linkElement.innerHTML = "<hr><div><a href='https://www.chunkbase.com/apps/seed-map#-1836633836' target='_blank'>Seed Map on Chunkbase</a></div>";
+    linkElement.innerHTML = "<hr><div><a href='https://www.chunkbase.com/apps/seed-map#-1836633836' target='_blank'>* Seed Map</a></div><div><a href='https://maps.punhalla.com/test/' target='_blank'>* In-depth Map</a></div>";
+  
     form.appendChild(linkElement);
 
     form.appendChild(hr);
