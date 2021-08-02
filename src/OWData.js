@@ -59,18 +59,18 @@ var playersData = {
 //-------------------------Nether Portals -- Purple-------------------------
 // archway icon \n\uf557
     
-    /*{
+   {
       "uuid": " ",
-      "name": "Mountain Portal\n\uf557",
-      "dimensionId": 0,
+      "name": "Emmy Portal\n\uf557",
+      "dimensionId": 1,
       "position": [
-        -1493,
-        0,
-        3410
+        -44,
+        74,
+        75
       ],
       "color": "Purple",
       "visible": true
-    }, */
+    }, 
  
 //-------------------------Underground Locations -- Gray-------------------------
 // \n\uf6d9
