@@ -1,7 +1,7 @@
 // mcpe_viz javascript helper file -- created by bedrock_viz program
 var worldName = 'EmmyAllEars - Copy';
 var worldSeed = 2458333460;
-var creationTime = 'Mon Aug  2 12:51:21 2021';
+var creationTime = 'Mon Aug  2 16:05:49 2021';
 var creationBedrockVizVersion = '0.1.4';
 var loadGeoJSONFlag = true;
 var fnGeoJSON = 'output.geojson';
@@ -16,7 +16,7 @@ var dimensionInfo = {
   maxWorldY: 2016 + 15,
   playerPosX: 1610.395447,
   playerPosY: 1438.854309,
-  geojsonBlocks: [ 'End Portal Frame', 'TNT', 'Standing Banner', 'Wall Banner', 'Portal', 'Bed', 'Diamond Ore' ],
+  geojsonBlocks: [ 'End Portal Frame', 'TNT', 'Standing Banner', 'Wall Banner', 'Portal', 'Bed', 'Diamond Ore', 'Bee Nest', 'Pointed Dripstone', 'Amethyst Block', 'Azalea', 'Cave Vines' ],
   spawnableFlag: false,
   fnLayerTop: 'tiles/bedrock_viz.overworld.map.png.{y}.{x}.png',
   fnLayerBiome: 'tiles/bedrock_viz.overworld.biome.png.{y}.{x}.png',
